@@ -99,7 +99,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
             welcome_photo = random.choice(random_photo)
 
         caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-        button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
+        button_text = "𝖵𝗂𝖾𝗐 𝖴𝗌𝖾𝗋"
         deep_link = f"tg://openmessage?user_id={user.id}"
 
         message = await client.send_photo(
