@@ -66,22 +66,22 @@ def queue_back_markup(_, CPLAY):
 def aq_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝖯𝖺𝗎𝗌𝖾", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝖲𝗍𝗈𝗉", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝖲𝗄𝗂𝗉", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
-                text="ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
+                text="𝖱𝖾𝗌𝗎𝗆𝖾", callback_data=f"ADMIN Resume|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀʏ", callback_data=f"ADMIN Replay|{chat_id}"
+                text="𝖱𝖾𝗉𝗅𝖺𝗒", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="𝖬𝗈𝗋𝖾",
+                url="https://t.me/AboutInnocent",
             ),
         ],
     ]
@@ -99,24 +99,24 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="𝖯𝖺𝗎𝗌𝖾",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝖲𝗍𝗈𝗉", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝖲𝗄𝗂𝗉", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
-                text="ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
+                text="𝖱𝖾𝗌𝗎𝗆𝖾", callback_data=f"ADMIN Resume|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀʏ", callback_data=f"ADMIN Replay|{chat_id}"
+                text="𝖱𝖾𝗉𝗅𝖺𝗒", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="𝖬𝗈𝗋𝖾",
+                url="https://t.me/AboutInnocent",
             ),
         ],
     ]
