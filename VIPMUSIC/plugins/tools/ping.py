@@ -122,7 +122,7 @@ async def ping_com(client, message: Message, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="❅ ʜᴇʟᴘ ❅", url=f"https://t.me/{app.username}?start=help"
+                        text="𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌", url=f"https://t.me/{app.username}?start=help"
                     )
                 ],
             ]
