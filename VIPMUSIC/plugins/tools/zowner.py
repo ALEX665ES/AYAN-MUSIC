@@ -36,7 +36,7 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/7a3ff031c8612055565c5.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""🍁𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 𝖡𝖾𝗅𝗈𝗐 𝖳𝗈 𝖦𝖾𝗍 𝖬𝗒 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
