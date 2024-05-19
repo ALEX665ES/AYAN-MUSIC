@@ -26,7 +26,7 @@ async def tag_all_users(_, message):
     text = message.text.split(None, 1)[1]
     if text:
         await message.reply_text(
-            "**ᴜᴛᴀɢ [ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢ] sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!**\n\n**๏ ᴛᴀɢɢɪɴɢ ᴡɪᴛʜ sʟᴇᴇᴘ ᴏғ 7 sᴇᴄ.**\n\n**➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoputag**"
+            "**ᴜᴛᴀɢ [ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢ] sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!**\n\n** ᴛᴀɢɢɪɴɢ ᴡɪᴛʜ sʟᴇᴇᴘ ᴏғ 7 sᴇᴄ.**\n\n**➥ 𝖮𝖿𝖿 𝖳𝖺𝗀𝗀𝗂𝗇𝗀 𝖡𝗒 » /stoputag**"
         )
 
     SPAM_CHATS[chat_id] = True
@@ -42,11 +42,11 @@ async def tag_all_users(_, message):
                 if m.user.is_bot:
                     continue
                 usernum += 1
-                usertxt += f"\n⊚ [{m.user.first_name}](tg://user?id={m.user.id})\n"
+                usertxt += f"\n❍ [{m.user.first_name}](tg://user?id={m.user.id})\n"
                 if usernum == 5:
                     await app.send_message(
                         message.chat.id,
-                        f"{text}\n{usertxt}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoputag ||",
+                        f"{text}\n{usertxt}\n\n|| ➥ 𝖮𝖿𝖿 𝖳𝖺𝗀𝗀𝗂𝗇𝗀 𝖡𝗒 » /stoputag ||",
                     )
                     usernum = 0
                     usertxt = ""
